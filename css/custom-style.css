@@ -1,0 +1,409 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 1, 2016, 12:38:30 AM
+    Author     : wohhie
+*/
+
+
+.search-product{
+    margin-top: 100px;
+    color: #fff !important;
+}
+
+#section{
+    
+    margin-bottom: 50px;
+}
+
+.error,
+#errorMessage{
+    color: #ff6666;
+}
+
+#success{
+    color: #2C925A;
+}
+
+.navbar-brand{
+    margin-top: 8px;
+    text-transform: uppercase;
+    color: #f5f5f5;
+}
+
+
+.sub-title{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #b3b3b3;
+}
+
+.sub-title a{
+    float: right;
+    color: #f5f5f5;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #43A047;
+    padding: 10px 15px;
+}
+
+.sub-title::after {
+    border-bottom: 3px solid #43A047;
+    content: "";
+    display: block;
+    margin-top: 10px;
+    top: 3px;
+    width: 20%;
+    position: relative;
+}
+
+
+/*  UPLOAD IMAGE    */
+.uploaded-image{
+   border: 3px dashed #b3b3b3;
+   width: calc(50%);
+   height: 200px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+
+.uploaded-image img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.mini-profile-photo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #eee;
+}
+
+.navbar-nav > li > a {
+  line-height: 37px !important;
+}
+
+.navbar-form{
+    margin-top: 17px;
+}
+
+#gender {
+    float: left;
+    width: 0;
+    margin-right: 14px;
+}
+
+/*=========================================
+                HEADER BACKGROUND
+===========================================*/
+
+#header-background{
+    background-image: url('../img/slideshow_1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/*=========================================
+                FORM STYLE
+===========================================*/
+.form-control{
+    border-radius: 0 !important;
+}
+
+
+.btn-default {
+    border-radius: 0 !important;
+    background-color: #2cc5bc;
+    border-color: #229f98 !important;
+    color: #f5f5f5;
+}
+
+nav{
+    background: #222 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.navbar-nav li a{
+    color: #f5f5f5 !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus,
+.navbar-nav li a:active{
+    color: #2cc5bc !important;
+    background: none !important;
+}
+
+
+.navbar-nav li.active{
+    background-color: red !important;
+}
+
+
+.store-content {
+    width: 100%;
+    height: 500px;
+    display: block;
+    overflow: hidden;
+}
+
+.store-content .shop-links a{
+    width: 110px;
+    float: left;
+    margin-right: 10px;
+}
+
+.store-content img{
+    width: 100%;
+    height: 200px;
+}
+
+.store-content img {
+  height: 226px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.store-content a{
+    display: block;
+}
+
+.store-content p{
+    margin-bottom: 0 !important;
+}
+
+.store-content p a {
+    color: #43a047 !important;
+    font-family: "Raleway",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    text-transform: uppercase;
+    display: block;
+    overflow: hidden;
+}
+
+.store-content .btn-primary {
+  background-color: #f2567b !important;
+  border-color: #c7254e;
+  border-radius: 0 !important;
+  display: block;
+  margin-top: 10px;
+  max-width: 200px;
+  overflow: hidden;
+  padding: 5px 25px;
+}
+
+.store-content p span,
+.info p span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/**
+INFO - SECTION
+*/
+
+.info p{
+    margin-bottom: 0px !important;
+}
+
+
+.store-single h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px 0 8px;
+    display: block;
+    overflow: hidden;
+    color: #229f98 !important;
+}
+
+.store-single p{
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 0px ;
+}
+
+.store-single p.desc{
+    margin-bottom: 8px;
+}
+
+.store-single .btn{
+    margin-top: 15px;
+}
+
+.store-single p span{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+ul.dropdown-menu{
+    background-color: #262626 !important;
+}
+
+
+/*=========================================
+                LIST
+===========================================*/
+
+.lists{
+    margin-top: 70px;
+}
+
+.lists li{
+    background-color: #eee;
+    margin-bottom: 2px;
+}
+
+.lists li a{
+    color: #333;
+    background-color: transparent !important;
+}
+
+.lists li a:hover,
+.lists li a:active,
+.lists li a:focus{
+    color: #229f98 !important;
+}
+
+
+
+
+
+
+/*=========================================
+                CHECKBOX
+===========================================*/
+
+input[type="checkbox"]{
+  display: block;
+  float: left;
+  line-height: normal;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: super;
+  width: 23px;
+}
+
+.form-group span {
+  margin-top: 6px;
+  display: block;
+  margin-left: 0px;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.btn-group .btn{
+    margin-right: 10px !important;
+}
+
+
+.price{
+    margin-top: 10px;
+}
+
+.cart-img {
+    width: 60px;
+    height: 40px;
+}
+
+.product-info h5{
+    font-size: 16px;
+}
+
+.product-info h5 span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/*  SEARCH BOX 
+=========================*/
+    #custom-search-form {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#custom-search-form .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+/* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: width .2s ease-in-out;
+    -moz-transition: width .2s ease-in-out;
+    -o-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+
+#custom-search-form button {
+    border: 0;
+    background: none;
+/** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+/* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.search-query:focus + button {
+    z-index: 3;
+}
+
+.search-query:focus {
+    width: 260px;
+}  
+
+
+.thumbnail{
+    height: 400px;
+    padding: 10px 15px;
+    display: block;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+
+.caption h4{
+    color: #262626;
+}
+
+.thumbnail .img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+}
+
+.thumbnail .img img{
+    width: 100%;
+    height: auto;
+}

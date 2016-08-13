@@ -1,0 +1,303 @@
+@import  "https://fonts.googleapis.com/css?family=Roboto:300";
+@import "font-awesome.css";
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2016, 12:56:38 AM
+    Author     : wohhie
+*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    color: #43A047;
+}
+
+p{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+body {
+    /*margin: 80px auto;*/
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.col-5{
+    width: 18%;
+    display: table;
+    overflow: hidden;
+    float: left;
+    margin-right: 23px;
+}
+
+
+
+
+/*=================================
+           SITE-HEADER
+===================================*/
+
+.sub-title{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #b3b3b3;
+}
+
+.sub-title a{
+    float: right;
+    color: #f5f5f5;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #43A047;
+    padding: 10px 15px;
+}
+
+.sub-title::after {
+    border-bottom: 3px solid #43A047;
+    content: "";
+    display: block;
+    margin-top: 10px;
+    top: 3px;
+    width: 20%;
+    position: relative;
+}
+
+.clearfix {
+    display: block;
+    overflow: hidden;
+}
+
+.header-section{
+    display: block;
+    overflow: hidden;
+    background-color: #4d4d4d;   
+}
+
+.container{
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    width: 1200px;
+    padding: 40px 0;
+}
+
+.site-header {
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    width: 1200px;
+    padding: 15px 0;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 300;
+}
+
+.site-header ul {
+    float: right;
+}
+
+.site-header ul li {
+    float: left;
+    margin-right: 7px;
+    padding-right: 7px;
+}
+
+.site-header ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+/*  TRANSITION  */
+    transition: all .4s;
+    -ms-transition: all .4s;
+    -webkit-transition: all .4s;
+}
+
+
+.site-header ul li ul{
+    display: none;
+    position: absolute;
+    width: 140px;
+    background-color: #eee;
+}
+
+.site-header ul li ul li {
+  border-bottom: 1px solid #b3b3b3;
+  float: none;
+  padding: 4px 13px;
+  margin-right: 0;
+}
+
+.site-header ul li ul li a{
+    color: #4d4d4d;
+    font-size: 13px;
+}
+
+.site-header ul li:hover ul{
+    display: block;
+}
+
+.site-header ul li a:hover,.site-header ul li a:focus,.site-header ul li a:active {
+    color: #8DC26F;
+}
+
+.colors{
+    background-color: #000;
+    height: 3px;
+}
+
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+
+/*========================
+        HEADER SECTION
+=========================*/
+
+
+/*========================
+        FORM
+=========================*/
+
+.form{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.form-group{
+    width: calc(20%);
+    margin-bottom: 10px;
+}
+
+.reg-form {
+  
+}
+
+.reg-form label{
+    width: 100%;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    margin-bottom: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+.form-control{
+    width: 100%;
+    padding: 6px;
+    float: left;
+    margin-right: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.btn-default{
+    background-color: #43A047;
+    border: 1px solid #4CAF50;
+    color: #f5f5f5;
+    overflow: hidden;
+    margin-top: 10px;
+    
+    /*  TRANSITION  */
+    transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+}
+
+.btn-submit{
+    background-color: #8DC26F;
+    border: 1px solid #43A047;
+    color: #f5f5f5;
+    
+    /*  TRANSITION  */
+    transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+}
+
+.btn-submit:hover,
+.btn-submit:active,
+.btn-submit:focus,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus{
+    background-color: #f5f5f5;
+    color: #76b852;
+}
+
+
+
+
+.store-content{
+    margin-bottom: 25px;
+}
+
+.store-content h3{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.store-content p{
+    font-size: 14px;
+    color: #4d4d4d;
+    line-height: 20px;
+}
+
+.store-content img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/*======================================
+        CHECK VALID ICON
+=======================================*/
+
+.storeNameStatus{
+    font-size: 13px;
+    font-family: 'FontAwesome';
+    content: "\f007";
+}
+
+#str-name-right{
+    color: green;
+    display: none;
+}
+
+#str-name-wrong{
+    color: red;
+    display: none;
+}
